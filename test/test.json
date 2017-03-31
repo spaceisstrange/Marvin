@@ -1,0 +1,58 @@
+[
+  {
+    "name": "initial",
+    "send": [
+      {
+        "type": "image",
+        "data": "https://something.xyz"
+      },
+      {
+        "type": "text",
+        "data": "Pues ahí tienes una pequeña prueba de lo que podemos hasé."
+      }
+    ],
+    "replies": [
+      {
+        "text": "Test 1",
+        "do": "something1"
+      },
+      {
+        "text": "Test 2",
+        "do": "something2"
+      }
+    ]
+  },
+  {
+    "name": "something1",
+    "send": [
+      {
+        "type": "text",
+        "data": "Something 1 clicked!"
+      }
+    ]
+  },
+  {
+    "name": "something2",
+    "send": [
+      {
+        "type": "text",
+        "data": "Something 2 clicked!"
+      }
+    ],
+    "replies": [
+      {
+        "text": "End",
+        "do": "ending"
+      }
+    ]
+  },
+  {
+    "name": "ending",
+    "send": [
+      {
+        "type": "text",
+        "data": "Nothing else to see here!"
+      }
+    ]
+  }
+]

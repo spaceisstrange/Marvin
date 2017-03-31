@@ -155,6 +155,3 @@ ENV/
 .ropeproject
 
 # End of https://www.gitignore.io/api/python,pycharm
-
-# Marvin-specific files and folders
-test/
